@@ -1,0 +1,2 @@
+- Move avatars on mobile?
+- Replace resume
