@@ -251,10 +251,10 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="flex-1"
         >
-          <h1 className="[@media(min-width:1250px)]:ml-[10px] ml-[15vw] [@media(min-width:950px)]:text-[55px] text-[5.84375vw] text-[var(--light-gray)] font-medium [text-shadow:1px_2px_1px_rgba(0,0,0,0.1)]">
+          <h1 className="[@media(min-width:1250px)]:ml-[10px] [@media(min-width:950px)]:ml-[10vw] ml-[5vw] [@media(min-width:950px)]:text-[55px] text-[5.84375vw] text-[var(--light-gray)] font-medium [text-shadow:1px_2px_1px_rgba(0,0,0,0.1)]">
             {projects[activeIndex].title}
           </h1>
-          <div className="[@media(min-width:1250px)]:ml-[10px] ml-[15vw] [@media(min-width:1250px)]:w-[550px] w-[70vw] [@media(min-width:950px)]:text-[23px] text-[2.44375vw] text-[var(--light-gray)] font-light [@media(min-width:950px)]:mt-[8px] mt-[0.85vw] [@media(min-width:950px)]:space-y-[14px] space-y-[1.4875vw]">
+          <div className="[@media(min-width:1250px)]:ml-[10px] [@media(min-width:950px)]:ml-[10vw] ml-[5vw] [@media(min-width:1250px)]:w-[550px] w-[70vw] [@media(min-width:950px)]:text-[23px] text-[2.44375vw] text-[var(--light-gray)] font-light [@media(min-width:950px)]:mt-[8px] mt-[0.85vw] [@media(min-width:950px)]:space-y-[14px] space-y-[1.4875vw]">
             {projects[activeIndex].description}
           </div>
 

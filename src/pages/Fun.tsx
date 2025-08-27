@@ -37,6 +37,9 @@ export default function Fun() {
   };
     const wrapperRef = useRef<any>(null);
     const softBounds = 100; // how far user can drag past screen edges before we gently pull back
+    const isPhone = typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches;
+    const xPadding = isPhone ? 800 : 0;
+
   return (
     <div
       className="relative h-screen w-screen overflow-hidden"
@@ -97,7 +100,7 @@ export default function Fun() {
           const y = state.positionY;
 
           const maxX = window.innerWidth / 2 + softBounds;
-          const minX = -window.innerWidth / 2 - softBounds;
+          const minX = -window.innerWidth / 2 - softBounds - xPadding;
           const maxY = window.innerHeight / 2 + softBounds;
           const minY = -window.innerHeight / 2 - softBounds;
 
