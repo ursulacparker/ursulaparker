@@ -9,6 +9,10 @@ export default {
   theme: {
     extend: {
     },
+    screens: {
+      md: '950px',
+      xl: '1250px',
+    },
   },
   plugins: [],
 } satisfies Config;
