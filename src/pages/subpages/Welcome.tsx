@@ -89,7 +89,7 @@ export default function Welcome({
           Ursula Parker
         </h1>
         <h1 className="whitespace-nowrap text-[3.7vw] [@media(min-width:950px)]:text-[35px] text-[var(--light-gray)] font-light mb-[0px] [@media(min-width:950px)]:leading-[35px] leading-[3.7vw]">
-          Project manager & architect
+          Software project manager
         </h1>
         <h1 className="whitespace-nowrap text-[3.7vw] [@media(min-width:950px)]:text-[35px] text-[var(--light-gray)] font-light mb-[0px] [@media(min-width:950px)]:leading-[35px] leading-[3.7vw]">
           Changing the world through code

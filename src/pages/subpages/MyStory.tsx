@@ -27,8 +27,7 @@ export default function MyStory({ scrollContainerRef }: { scrollContainerRef: Re
       <span className="font-semibold"> cybersecurity</span>, when I became an ethical hacker through <span className="font-semibold">HackerOne</span>.
     </>,
     <>
-      At <span className="font-semibold">RIT</span>, I discovered my true passion: <span className="font-semibold">architecting systems</span>,
-      <span className="font-semibold"> managing projects</span>, and <span className="font-semibold">designing solutions</span>.
+      At <span className="font-semibold">RIT</span>, I discovered my true passion: <span className="font-semibold"> managing projects</span>, <span className="font-semibold">architecting systems</span>, and <span className="font-semibold">designing solutions</span>.
       Whatever I’m working on, I’m always driven by my <span className="font-semibold">love for software</span>, the perfect blend of creativity and logic.
     </>
   ];
