@@ -13,7 +13,7 @@ export default function MatrixRain({ fadeOut }: { fadeOut: boolean }) {
     canvas.width = width;
     canvas.height = height;
 
-    const letters = "アカサタナハマヤラワ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const letters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const fontSize = 16;
     const columns = Math.floor(width / fontSize);
     const drops = Array(columns).fill(1);
