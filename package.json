@@ -19,7 +19,7 @@
     "canvas-confetti": "^1.9.3",
     "framer-motion": "^12.4.4",
     "honeycomb-grid": "^4.1.5",
-    "next": "^15.5.2",
+    "next": "15.5.9",
     "postprocessing": "^6.37.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
